@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 
 function App() {
     const [image, setImage] = useState({ preview: '', data: '' });
