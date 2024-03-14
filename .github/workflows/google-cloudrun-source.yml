@@ -51,9 +51,9 @@ on:
     branches: [ "main" ]
 
 env:
-  PROJECT_ID: missionready-mission2 # TODO: update Google Cloud project id
-  SERVICE: mission2-frontend # TODO: update Cloud Run service name
-  REGION: us-central1 # TODO: update Cloud Run service region
+  PROJECT_ID: missionready-mission2
+  SERVICE: mission-ready-level5-mission2
+  REGION: us-central1
 
 jobs:
   deploy:
